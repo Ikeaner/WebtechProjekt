@@ -10,6 +10,16 @@ $(document).ready(function(){
 		case "News - Natur- und Heimatverein Lüllingen":
 			var currentlink = linklist[1]
 			break
+		case "Dorf - Natur- und Heimatverein Lüllingen":
+			var currentlink = linklist[2]
+			break
+		case "Verein - Natur- und Heimatverein Lüllingen":
+			var currentlink = linklist[3]
+			break;
+		case "Termine - Natur- und Heimatverein Lüllingen":
+			var currentlink = linklist[4]
+			break;
+		
 	}
 	$(currentlink).css( "border-bottom-width", "3px")
 	$(currentlink).css( "border-bottom-style", "solid")
