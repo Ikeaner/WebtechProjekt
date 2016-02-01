@@ -158,7 +158,10 @@ h2{
 	display: block;
 	clear: both;
 }
-
+.vereinsbilder{
+	border-radius:20px;
+	margin-left:3%
+}
 
 footer{
 	clear: both;
