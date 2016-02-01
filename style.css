@@ -143,8 +143,23 @@ h2{
 }
 .News11{
 	width: 45%;
-	border-radius:25px;
+	border-radius:20px;
+	margin-left:3%
 }
+.bildverein{
+	float:left;
+	width: 44%;
+	margin: 3%;
+	border-radius:20px;
+}
+#vereinpics:after {
+	content: '';
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+
 footer{
 	clear: both;
 	height:5%;
