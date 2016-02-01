@@ -290,3 +290,12 @@ th{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+#Impressum{
+	line-height: 1.5;
+	width: 500px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
