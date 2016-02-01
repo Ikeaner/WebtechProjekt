@@ -24,6 +24,4 @@ $(document).ready(function(){
 	$(currentlink).css( "border-bottom-width", "3px")
 	$(currentlink).css( "border-bottom-style", "solid")
 	$(currentlink).css( "border-bottom-color", "orange")
-	
-
 });
