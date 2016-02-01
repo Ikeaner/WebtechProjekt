@@ -137,7 +137,8 @@ h2{
 	text-align:center;
 }
 #News11{
-	width: 45%
+	width: 45%;
+	border-radius:25px;
 }
 footer{
 	height:5%;
