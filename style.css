@@ -162,7 +162,19 @@ h2{
 	border-radius:20px;
 	margin-left:3%
 }
-
+#zeltenbilder1{
+	border-radius:20px;
+	float:left;
+}
+#zeltenbilder2{
+	border-radius:20px;
+	float: right;
+}
+#zeltenbilder3{
+	border-radius:20px;
+	float:left;
+	margin-bottom:3%;
+}
 footer{
 	clear: both;
 	height:5%;
