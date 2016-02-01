@@ -112,7 +112,7 @@ h2{
 	clear: both;
 }
 
-#News1{
+.News1{
 	float:left;
 	margin-bottom:2%;
 	height: auto;
@@ -120,27 +120,28 @@ h2{
 	border-radius: 25px;
 }
 
-#News2{
+.News2{
 	float:left;
 	margin-left: 2%;
 	margin-bottom:2%;
 	height: auto;
 	width: 32%;
-	border-radius: 25px;
+	border-radius: 20px;
 }
 #UeberschriftNews{
 	font-size: 28pt;
 	font-weight: bold;
 	text-align: center;
+	padding-top: 30px;
 }
 #contentNews1{
 	position: relative;
 	left: 25%;
 	padding:25px;
 	width:50%;
-	text-align:center;
+	text-align:justify;;
 }
-#News11{
+.News11{
 	width: 45%;
 	border-radius:25px;
 }
@@ -171,13 +172,12 @@ h4{
 	font-variant: small-caps;
 }
 
-#bildlinks{
+.bildlinks{
 	float: left;
 	margin-right: 30px;
-	margin-bottom: 10px;
 }
 
-#bildrechts{
+.bildrechts{
 	float: right;
 	margin-left: 30px;
 }
@@ -185,7 +185,8 @@ h4{
 article img{
 	height: 300px;
 	width: 500px;
-	border-radius: 25px;
+	border-radius: 20px;
+	margin-bottom: 10px;
 }
 
 article{
@@ -210,6 +211,7 @@ article{
 	color:orange;
 }
 
+
 #termTab{
 	padding-top: 20px;
 	font-size: 16pt;
@@ -221,4 +223,34 @@ article{
 }
 th{
 	padding-bottom: 10px;
+}
+#bildGeschichte{
+	margin-top: 35px;
+	margin-right: 30px;
+	float: left;
+	height: 300px;
+	width: auto;
+	border-radius: 20px;
+}
+
+#bildGeschichte2{
+	margin-top: 35px;
+	margin-left: 30px;
+	float: right;
+	height: 300px;
+	width: auto;
+	border-radius: 20px;
+}
+
+#content2{
+	margin-top: 20px;
+	margin-right: 80px;
+	margin-left: 80px;
+	margin-bottom: 80px;
+}
+
+.details{
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
