@@ -1,4 +1,5 @@
-$(document).ready(function(){	
+function termine() {
+$(document).ready(function(){
 	$.getJSON("termine.json", function(data){
 		
 		var table = document.getElementById("termTab");
@@ -26,3 +27,24 @@ $(document).ready(function(){
 		}
 	});
 });
+}
+
+function headerChange() {
+$(document).ready(function(){
+    var interval;
+
+    function headerChange()
+    {
+        var img = $('.underheader img:first');
+        img.hide();
+		
+        $('.underheader' ).append(img);
+        img.fadeIn()
+    };
+
+    interval = setInterval( function() 
+    {
+        headerChange();
+    }, 15000 );
+});
+}
