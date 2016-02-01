@@ -142,9 +142,7 @@ h2{
 	position: absolute;
 	bottom: 80px;
 	left: 80px;
-=======
 	border-radius: 20px;
->>>>>>> bfce3a294dece9c41a779bd80b8604ddc75a3700
 }
 
 .News2{
@@ -185,9 +183,7 @@ h2{
 	display: block;
 	clear: both;
 }
-<<<<<<< HEAD
 
-=======
 .vereinsbilder{
 	border-radius:20px;
 	margin-left:3%
@@ -205,7 +201,7 @@ h2{
 	float:left;
 	margin-bottom:3%;
 }
->>>>>>> bfce3a294dece9c41a779bd80b8604ddc75a3700
+
 footer{
 	clear: both;
 	height:5%;
