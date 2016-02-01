@@ -137,7 +137,8 @@ h2{
 	text-align:center;
 }
 #News11{
-	width: 45%
+	width: 45%;
+	border-radius: 25px;
 }
 footer{
 	height:5%;
@@ -158,10 +159,10 @@ footer{
 	text-decoration: none;
 
 	}
-	h4{
-		border-bottom: 2px;
-		border-bottom-color: orange;
-		border-bottom-style: solid;
+h4{
+	border-bottom: 2px;
+	border-bottom-color: orange;
+	border-bottom-style: solid;
 	font-variant: small-caps;
 }
 
