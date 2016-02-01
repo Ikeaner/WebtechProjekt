@@ -209,3 +209,16 @@ article{
 .weiterlesen:hover{
 	color:orange;
 }
+
+#termTab{
+	padding-top: 20px;
+	font-size: 16pt;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px;
+	
+	padding-bottom: 30px;
+}
+th{
+	padding-bottom: 10px;
+}
