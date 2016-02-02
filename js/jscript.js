@@ -44,7 +44,7 @@ function headerLink(){
 		}
 		$(currentlink).css( "border-bottom-width", "3px")
 		$(currentlink).css( "border-bottom-style", "solid")
-		$(currentlink).css( "border-bottom-color", "orange")
+		$(currentlink).css( "border-bottom-color", "rgb(252,173,24)")
 	});
 }
 
