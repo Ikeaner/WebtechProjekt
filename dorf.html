@@ -4,17 +4,16 @@
 		<meta charset="UTF-8">
 		<title>Dorf - Natur- und Heimatverein Lüllingen</title>
 		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script type="text/javascript" src="jscript.js"></script>
-		<script type="text/javascript" src="headerchange.js"></script>
+		<script type="text/javascript" src="js/jscript.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	<body>
+	<body onload="headerChange(); headerLink();">
 		<div id="header">
 			<div id="ubers">
 				<h1>Natur- und Heimatverein Lüllingen</h1>
 			</div>
 			<div id="logo">
-				<a href="home.html"><img id="logopng" src="testlogo.png" alt="Logo"></a>
+				<a href="home.html"><img id="logopng" src="img/logo/logo.png" alt="Logo"></a>
 			</div>
 			<div id="hlinks">
 				<a href="home.html" class=hlink>Start</a>
@@ -25,48 +24,45 @@
 			</div>
 		</div>
 		<div class="underheader">
-			<img src="subhead_img//subhead_1.jpg" alt="start">
-			<img src="subhead_img//subhead_2.jpg" alt="start">
-			<img src="subhead_img//subhead_3.jpg" alt="start">
+			<img src="img/subhead/subhead_1.jpg">
+			<img src="img/subhead/subhead_2.jpg">
+			<img src="img/subhead/subhead_3.jpg">
 		</div>
 		<div id="content">
 			<h2>Dorf</h2>
-			
-				<article>
-					<img class="bildlinks" src="dorfplatz_nachher.jpg" alt="dorfplatz">
-					<h4> Wissenswertes </h4>
-					<p class=artikel>Der Name Lüllingen ist schon sehr alt und taucht schon 1418 in den Geschichtsbüchern auf. Bereits 1510 wird die Kapelle "tho lueylyeng" erwähnt. Die Schreibweise war damals lueylyeng, lulyng und lullingh. Pastor Gaien schrieb 1636 schon Lülling. Später hängte man die Silbe "en" an: Lüllingen.
-					</br></br>
-					Im Jahre 1636 und 1714 werden bereits Schulmeister in Lüllingen genannt. Auch sollen Eremiten an der Lüllinger Schule tätig gewesen sein. Von ihnen jedenfalls, die das Kapellchen am Jülicherweg schon betreuten, erhielt Lüllingen den Namen "An de Kluus", der heute nach wie vor volkstümlich ist.
-					</br></br>
-					Im Jahre 1843 zählte die Bauernschaft Lüllingen 154 Einwohner. Zum dortigem Schulbezirk gehörten auch die Bauernschaften Geniel und Spitzfeld.Die ältesten Höfe im Lüllinger Gebiet werden bereits um das Jahr 1418 genannt, so die heute noch bekannten Höfe mit den typischen Namen wie Thusen, Tümpen, Böns, Holtappel, Dicker und Eimels.
-					</p>
-					<a href="Wissenswertes.html" class=weiterlesen>weiterlesen</a>
-				</article>
-				
-				<article>
-					<img class="bildrechts" src="st_rochus_aussen.jpg" alt="Kapelle">
-					<h4> Kirchliches </h4>
-					<p class=artikel>1510 wird eine Kapelle "to Luelyng" in einer alten Steuerliste erwähnt. Sie soll am Jülicherweg gestanden haben. Ein Sandstein über der Eingangstür der Lüllinger Kapelle zeigt die Jahreszahl 1747.
-					</br></br>
-					Die Kapelle wurde erbaut mit einem Tonnengewölbe, Satteldach und einem kleinen Turm. Im kleinen Glockenturm hängt eine kleine Glocke aus dem Jahre 1664, also 83 Jahre älter als die Kapelle. Ob die Glocke schon in der Kapelle am Jülicherweg geläutet hat? Der Kirchenbau hatte bis 1921 eine Länge von 10 m und eine Breite von 6,40m.
-					</br></br>
-					Für die Lüllinger wurde die Kapelle zu klein. Es ist anzumerken, dass in der 400 Seelen-Gemeinde von Lüllingen erst seit 1919 regelmäßig ein Sonntagsgottesdienst gefeiert wurde. Der Kirchenbauverein entschloß sich 1921 zu einer Vergrößerung der Kapelle. Ein Querhaus, der Chorraum und die Sakristei, von 6,30 x 11,50 m wurden angebaut.
-					</p>
-					<a href="Wissenswertes.html" class=weiterlesen>weiterlesen</a>
-				</article>
-				
-				<article>
-					<img class="bildlinks" src="spielplatz_kerstenweg_1.jpg" alt="Kapelle">
-					<h4> Leben in Lüllingen </h4>
-					<p class=artikel>Auf Wunsch der Nachbarschaft Kerstenweg wurde im März 2010 von ihr und dem Natur- und Heimatverein ein Spielplatz errichtet. Die Familie Bongartz stellte dankenswerterweise ein Grundstück kostenlos  auf unbestimmte Zeit zur Verfügung.
-					</br></br>
-					Die Spielgeräte des alten Spielplatzes, die sonst verschrottet würden, wurden wieder aufgestellt. Ein Bolzplatz wurde eingesät, ein Fangnetz errichtet. Ein Tipi aus Weiden gepflanzt.
-					</br></br>
-					Melanie Gehrmann und Christof Weleda erklärten sich in der Gründungsversammlung bereit, als Obleute zu fungieren und auf den Platz aufzupassen. Heute wird der Platz von den Kindern des Neubaugebietes gut angenommen.
-					</p>
-					<a href="Wissenswertes.html" class=weiterlesen>weiterlesen</a>
-				</article>
+			<article>
+				<img class="bildlinks" src="img/dorf/dorfplatz_nachher.jpg" alt="dorfplatz">
+				<h4> Wissenswertes </h4>
+				<p class=artikel>Der Name Lüllingen ist schon sehr alt und taucht schon 1418 in den Geschichtsbüchern auf. Bereits 1510 wird die Kapelle "tho lueylyeng" erwähnt. Die Schreibweise war damals lueylyeng, lulyng und lullingh. Pastor Gaien schrieb 1636 schon Lülling. Später hängte man die Silbe "en" an: Lüllingen.
+				</br></br>
+				Im Jahre 1636 und 1714 werden bereits Schulmeister in Lüllingen genannt. Auch sollen Eremiten an der Lüllinger Schule tätig gewesen sein. Von ihnen jedenfalls, die das Kapellchen am Jülicherweg schon betreuten, erhielt Lüllingen den Namen "An de Kluus", der heute nach wie vor volkstümlich ist.
+				</br></br>
+				Im Jahre 1843 zählte die Bauernschaft Lüllingen 154 Einwohner. Zum dortigem Schulbezirk gehörten auch die Bauernschaften Geniel und Spitzfeld.Die ältesten Höfe im Lüllinger Gebiet werden bereits um das Jahr 1418 genannt, so die heute noch bekannten Höfe mit den typischen Namen wie Thusen, Tümpen, Böns, Holtappel, Dicker und Eimels.
+				</p>
+				<a href="wissenswertes.html" class=weiterlesen>weiterlesen</a>
+			</article>
+			<article>
+				<img class="bildrechts" src="img/dorf/st_rochus_aussen.jpg" alt="Kapelle">
+				<h4> Kirchliches </h4>
+				<p class=artikel>1510 wird eine Kapelle "to Luelyng" in einer alten Steuerliste erwähnt. Sie soll am Jülicherweg gestanden haben. Ein Sandstein über der Eingangstür der Lüllinger Kapelle zeigt die Jahreszahl 1747.
+				</br></br>
+				Die Kapelle wurde erbaut mit einem Tonnengewölbe, Satteldach und einem kleinen Turm. Im kleinen Glockenturm hängt eine kleine Glocke aus dem Jahre 1664, also 83 Jahre älter als die Kapelle. Ob die Glocke schon in der Kapelle am Jülicherweg geläutet hat? Der Kirchenbau hatte bis 1921 eine Länge von 10 m und eine Breite von 6,40m.
+				</br></br>
+				Für die Lüllinger wurde die Kapelle zu klein. Es ist anzumerken, dass in der 400 Seelen-Gemeinde von Lüllingen erst seit 1919 regelmäßig ein Sonntagsgottesdienst gefeiert wurde. Der Kirchenbauverein entschloß sich 1921 zu einer Vergrößerung der Kapelle. Ein Querhaus, der Chorraum und die Sakristei, von 6,30 x 11,50 m wurden angebaut.
+				</p>
+				<a href="wissenswertes.html" class=weiterlesen>weiterlesen</a>
+			</article>
+			<article>
+				<img class="bildlinks" src="img/dorf/spielplatz_kerstenweg_1.jpg" alt="Kapelle">
+				<h4> Leben in Lüllingen </h4>
+				<p class=artikel>Auf Wunsch der Nachbarschaft Kerstenweg wurde im März 2010 von ihr und dem Natur- und Heimatverein ein Spielplatz errichtet. Die Familie Bongartz stellte dankenswerterweise ein Grundstück kostenlos  auf unbestimmte Zeit zur Verfügung.
+				</br></br>
+				Die Spielgeräte des alten Spielplatzes, die sonst verschrottet würden, wurden wieder aufgestellt. Ein Bolzplatz wurde eingesät, ein Fangnetz errichtet. Ein Tipi aus Weiden gepflanzt.
+				</br></br>
+				Melanie Gehrmann und Christof Weleda erklärten sich in der Gründungsversammlung bereit, als Obleute zu fungieren und auf den Platz aufzupassen. Heute wird der Platz von den Kindern des Neubaugebietes gut angenommen.
+				</p>
+				<a href="wissenswertes.html" class=weiterlesen>weiterlesen</a>
+			</article>
 		</div>
 		<footer>
 			<a href="impressum.html" class=footerLink>Impressum</a>
