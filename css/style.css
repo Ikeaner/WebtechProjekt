@@ -219,7 +219,7 @@ footer{
 	font-family: 'Raleway', sans-serif;
 
 	}
-h4{
+h4{ /* Kleine Überschriften mit Kapitälchen. Verwendet in dorf.html, wissenswertes.html und article3.html. */) 
 	border-bottom: 2px;
 	border-bottom-color: rgb(252,173,24);
 	border-bottom-style: solid;
@@ -227,36 +227,36 @@ h4{
 	
 }
 
-.bildlinks{
+.bildlinks{ /* Alle Bilder auf der dorf.html Seite, die links seien sollen. */
 	float: left;
 	margin-right: 30px;
 }
 
-.bildrechts{
+.bildrechts{ /* Alle Bilder auf der dorf.html Seite, die rechts seien sollen. */
 	float: right;
 	margin-left: 30px;
 }
 
-article img{
+article img{ /* Alle Bilder, die in articlen sind. Betrifft nur dorf.html. */
 	height: 300px;
 	width: 500px;
 	border-radius: 20px;
 	margin-bottom: 10px;
 }
 
-article{
+article{ /* Fügt articlen Ränder hinzu. */
 	margin-top: 20px;
 	margin-right: 80px;
 	margin-left: 80px;
 	margin-bottom: 80px;
 }
 
-.artikel{
+.artikel{ /* Kleine Ränder oben und unten */ 
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-.weiterlesen{
+.weiterlesen{ /* Weiterlesen-Links in dorf.html werden fett geschrieben um sich vom Rest abzuheben. */
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
@@ -280,7 +280,7 @@ article{
 th{
 	padding-bottom: 10px;
 }
-#bildGeschichte{
+#bildGeschichte{ /* Betrifft ein Bild in wissenswertes.html. Setzt dieses auf die linke Seite und gibt ihm einen Rand und eine feste Höhe. */
 	margin-top: 35px;
 	margin-right: 30px;
 	float: left;
@@ -289,7 +289,7 @@ th{
 	border-radius: 20px;
 }
 
-#bildGeschichte2{
+#bildGeschichte2{ /* Betrifft ein Bild in wissenswertes.html. Setzt dieses auf die rechte Seite und gibt ihm einen Rand und eine feste Höhe. */
 	margin-top: 35px;
 	margin-left: 30px;
 	float: right;
@@ -298,7 +298,7 @@ th{
 	border-radius: 20px;
 }
 
-.dorfplatzBilderRechts{
+.dorfplatzBilderRechts{ /* Betrifft Bilder in wissenswertes.html. Setzt diese auf die rechte Seite und gibt ihnen einen Rand und eine feste Breite. */
 	margin-top: 35px;
 	margin-left: 30px;
 	float: right;
@@ -307,7 +307,7 @@ th{
 	border-radius: 20px;
 }
 
-.dorfplatzBilderLinks{
+.dorfplatzBilderLinks{ /* Betrifft Bilder in wissenswertes.html. Setzt diese auf die linke Seite und gibt ihnen einen Rand und eine feste Breite. */
 	margin-top: 35px;
 	margin-right: 30px;
 	float: left;
@@ -316,20 +316,20 @@ th{
 	border-radius: 20px;
 }
 
-#content2{
+#content2{ /* Verwendet in wissenswertes.html. Setzt einen Rand um ein div. */
 	margin-top: 20px;
 	margin-right: 80px;
 	margin-left: 80px;
 	margin-bottom: 80px;
 }
 
-.details{
+.details{ /* Verwendet in wissenswertes.html. Setzt einen Rand um ein Textfeld und zentriert dieses. */
 	text-align: justify;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-#Impressum{
+#Impressum{ /* Formartiert das Impressum. */
 	line-height: 1.5;
 	width: 500px;
 	margin-top: 50px;
