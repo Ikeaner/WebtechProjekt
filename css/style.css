@@ -102,7 +102,7 @@ h2{		/* Kontrolliert das Aussehen der Überschriften im Content */
 	margin-bottom: 50px;
 }
 
-#homebild{		/*  */
+#homebild{		/* Kontrolliert das große Bild auf der linken Seite der Startseite */
 	width:50%;
 	border-radius: 20px;
 	float:left;
@@ -110,31 +110,31 @@ h2{		/* Kontrolliert das Aussehen der Überschriften im Content */
 	margin-right:3%;
 	margin-bottom:3%;
 }
-.homepics{
+.homepics{		/* Kontrolliert die anderen beiden Bilder auf der Startseite */
 	width:25%;
 	float:left;
 	margin-left: 3%;
 	margin-top: 3%;
 	border-radius:20px;
 }
-#NewsHeader{
+#NewsHeader{	/* Kontrolliert die Überschrift der News Seite */
 	font-size: 28pt;
 	font-weight: bold;
 	text-align: center;
 }
 
-#Newslinks{
+#Newslinks{		/* Kontrolliert das div in dem die Bilder der News Seite als Links sind */
 	margin:25px;
 }
 
-#Newslinks:after {
+#Newslinks:after {		/* After-Element das Nach dem Div in dem auf der News Seite die links enthalten sind cleart */
 	content: '';
 	visibility: hidden;
 	display: block;
 	clear: both;
 }
 
-.News1{
+.News1{		/* Kontrolliert die linken Bilder der News Seite */
 	float:left;
 	margin-bottom:2%;
 	height: auto;
@@ -154,7 +154,7 @@ h2{		/* Kontrolliert das Aussehen der Überschriften im Content */
 	border-radius: 20px;
 }
 
-.News2{
+.News2{		/* Kontrolliert die linken Bilder der News Seite */
 	float:left;
 	margin-left: 2%;
 	margin-bottom:2%;
@@ -162,46 +162,46 @@ h2{		/* Kontrolliert das Aussehen der Überschriften im Content */
 	width: 32%;
 	border-radius: 20px;
 }
-#UeberschriftNews{
+#UeberschriftNews{		/* Kontrolliert die Überschriften der einzelnen News (Artikel) */
 	font-size: 28pt;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 30px;
 }
-#contentNews1{
+#contentNews1{		/* Kontrolliert den Inhalt der einzelnen News (Artikel) und der Seite Verein */
 	position: relative;
 	left: 25%;
 	padding:25px;
 	width:50%;
 	text-align:justify;;
 }
-.News11{
+.News11{		/* Kontrolliert die Bilder im ersten Artikel */
 	width: 45%;
 	border-radius:20px;
 	margin-left:3%
 }
-.bildverein{
+.bildverein{ /* Kontrolliert Bilder der Seite Verein die nebeneinander angeordnet sind */
 	float:left;
 	width: 44%;
 	margin: 3%;
 	border-radius:20px;
 }
-#vereinpics:after {
+#vereinpics:after { /* Afterelement das nach dem div in Verein in dem Bilder gefloated sind cleart */
 	content: '';
 	visibility: hidden;
 	display: block;
 	clear: both;
 }
 
-.vereinsbilder{
+.vereinsbilder{		/* Kontrolliert Bilder der Seite Verein */
 	border-radius:20px;
 	margin-left:3%
 }
-.zeltenbilder{
+.zeltenbilder{		/* Kontrolliert die Bilder im zweiten Artikel */
 	border-radius:20px;
 }
 
-footer{
+footer{		/* Kontrolliert den Footer */
 	clear: both;
 	height:5%;
 	width:100%;
@@ -215,7 +215,7 @@ footer{
 	
 }
 
-.footerLink{
+.footerLink{ 	/* Kontrolliert die Links im Footer */
 	padding-left:10px;
 	padding-right:10px;
 	color: black;
