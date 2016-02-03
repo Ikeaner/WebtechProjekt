@@ -6,7 +6,7 @@ function headerChange() {
 	$(document).ready(function(){
 		var interval;
 		//Zirkelt durch die vorhandenen Bilder.
-		function headerChange()
+		function headerChangeF()
 		{
 			var img = $('.underheader img:first');
 			img.hide();
@@ -15,7 +15,7 @@ function headerChange() {
 		};
 		//Setzt den Intervall für den Zyklus.
 		interval = setInterval( function() 
-		{headerChange();}, 15000 );
+		{headerChangeF();}, 15000 );
 	});
 }
 
