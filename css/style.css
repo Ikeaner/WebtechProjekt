@@ -142,7 +142,7 @@ h2{		/* Kontrolliert das Aussehen der Überschriften im Content */
 	border-radius: 25px;
 	
 }
-
+/*
 .hoverText{
 	color: white;
 	text-decoration: none;
@@ -153,7 +153,7 @@ h2{		/* Kontrolliert das Aussehen der Überschriften im Content */
 	left: 80px;
 	border-radius: 20px;
 }
-
+*/
 .News2{		/* Kontrolliert die linken Bilder der News Seite */
 	float:left;
 	margin-left: 2%;
