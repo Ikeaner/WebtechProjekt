@@ -1,9 +1,11 @@
-*{
+/* Diese CSS Datei wird für alle html Dokumente verwendet. */
+
+*{	/* Entfernt die Standard Margin auf bestimmten Elementen und gibt den Fließtexten die richtige Schriftfamilie. */
 	margin: 0px;
 	font-family: 'Noto Sans', sans-serif;
 }
 
-#header{
+#header{	/* Enthält alle Elemente die zum Header gehören. */
 	height: 10vh;
 	width: 100%;
 	position: absolute;
@@ -12,7 +14,7 @@
 
 /* Alte Farbe: rgba(75, 95, 86, 0.8) */
 
-#ubers{
+#ubers{		/* Enthält die Überschrift für jede Webseite. */
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: rgb(252,173,24);	
@@ -23,14 +25,14 @@
 	float: left;
 }
 
-#logo{
+#logo{		/* Enthält das Logo. */
 	background-color: rgba(0, 91, 35, 0.6);
 	width: 10%;
 	float: left;
 	height: auto;
 }
 
-#logopng{
+#logopng{	/* Kontrolliert die Größe des Logo PNGs. */
 	display:block;
 	max-width:100%;
 	max-height:100%;
@@ -39,7 +41,7 @@
 }
 
 
-#hlinks{
+#hlinks{	/* Enthält die Links im Header. */
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: rgb(252,173,24);	
@@ -50,7 +52,7 @@
 	float: left;
 }
 
-h1{
+h1{		/* Kontrolliert das Aussehen der Überschrift. */
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 28pt;
@@ -60,7 +62,7 @@ h1{
 	top: 25%;
 }
 
-.hlink{
+.hlink{		/* Kontrolliert das Aussehen und die Positionen der Links im Header */
 	color: white;
 	font-size: 19pt;
 	text-decoration: none;
@@ -72,11 +74,11 @@ h1{
 	margin-right: 25px;
 }
 
-.hlink:hover {
+.hlink:hover { 		/* Wird die Maus über einem Link im Header gehalten, wird dieser Orange. */
 	color: rgb(252,173,24);
 }
 
-.underheader{
+.underheader{	/* Kontrolliert die Bilder unter dem Header. */
 	width: 100%;
 	height: 35vh;
 	overflow:hidden;	
@@ -86,19 +88,21 @@ h1{
 	border-bottom-width: 2px;
 }
 
-#content{
+#content{	/* Sollte allen anderen content außerhalb header und footer beinhalten. */
 	width: 100%;
 	padding-top: 30px;
 }
 
-h2{
+h2{		/* Kontrolliert das Aussehen der Überschriften im Content */
 	color: black;
 	font-size: 36pt;
 	font-weight: bold;	
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
+	margin-bottom: 50px;
 }
-#homebild{
+
+#homebild{		/*  */
 	width:50%;
 	border-radius: 20px;
 	float:left;
@@ -267,7 +271,7 @@ article{ /* Fügt articlen Ränder hinzu. */
 }
 
 
-#termTab{
+#termTab{ 	/* Kontrolliert das Aussehen und die Position der Tabelle in "termine.html". */
 	padding-top: 20px;
 	font-size: 16pt;
 	margin-left: auto;
@@ -275,9 +279,10 @@ article{ /* Fügt articlen Ränder hinzu. */
 	border: 0px;
 	border-collapse: collapse;
 	
-	padding-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 80px;
 }
-th{
+th{ 	/* Gibt dem Table Header ein padding. */
 	padding-bottom: 10px;
 }
 #bildGeschichte{ /* Betrifft ein Bild in wissenswertes.html. Setzt dieses auf die linke Seite und gibt ihm einen Rand und eine feste Höhe. */

@@ -2,23 +2,29 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Dorf - Natur- und Heimatverein Lüllingen</title>
+		<title>Natur- und Heimatverein Lüllingen</title>
+		<!-- Lädt die benötigten Daten, damit Javascript funktioniert. -->
 		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<!-- Lädt die Schriftarten "Raleway" und "Noto Sans". -->
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+		<!-- Lädt die .js Datei. -->
 		<script type="text/javascript" src="js/jscript.js"></script>
+		<!-- Lädt die .css Datei ein. -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	
+	<!-- "onload" in body lädt die benötigten Funktionen für das Dokument aus der .js Datei. -->
 	<body onload="headerChange(); headerLink();">
 		<div id="header">
 			<div id="ubers">
+				<!-- Überschrift für die Seite, oben links im Header. -->
 				<h1>Natur- und Heimatverein Lüllingen</h1>
 			</div>
+			<!-- Lädt das Logo. -->
 			<div id="logo">
 				<a href="home.html"><img id="logopng" src="img/logo/logo.png" alt="Logo"></a>
 			</div>
-			<!-- Links zu den verschiedenen Themen. -->
+			<!-- Links, die im Header enthalten sein sollen. -->
 			<div id="hlinks">
 				<a href="home.html" class=hlink>Start</a>
 				<a href="news.html" class=hlink>News</a>
@@ -27,13 +33,13 @@
 				<a href="termine.html" class=hlink>Termine</a>
 			</div>
 		</div>
-		
+		<!-- Bilder, die unter dem Header angezeigt werden. 
+		Durch eine funktion in der .js Datei ändern sich die Bilder in einem Zyklus. -->
 		<div class="underheader">
 			<img src="img/subhead/subhead_1.jpg">
 			<img src="img/subhead/subhead_2.jpg">
 			<img src="img/subhead/subhead_3.jpg">
 		</div>
-		
 		<div id="content">
 			<h2>Wissenswertes</h2>
 			<div id="content2">
